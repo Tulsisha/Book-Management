@@ -1,0 +1,25 @@
+{% extends 'homebase.html' %}
+{% block content1 %}
+<h1 id="h1">PermanentRecord</h1>
+{{msg}}
+<center>
+    <table id="table" border=1>
+        <tr>
+            <th id="th">Name</th>
+            <th id="th">Email</th>
+        </tr>
+        {% for x in data  %}
+            <tr>
+                <td id="td">{{x.username}}</td>
+                <td id="td">{{x.email}}</td>
+                
+            </tr>
+            {% endfor %}
+    </table>
+    
+</center>
+     
+            
+{% endblock content1 %}
+{% block footer %}<h1 id="hh">Developed By Tulsi Shah || Home Page</h1>
+{% endblock footer %}

@@ -1,0 +1,39 @@
+{% extends 'homebase.html' %}
+{% block content1 %}
+<h1 id="h1">change password</h1>
+<h1 id="h1">{{user.username}}</h1>
+<h1 id="h1">{{msg}}</h1>
+<center>
+    <form  action="changepassword" method="post">
+        {% csrf_token %}
+        <table border=1 id="table2">
+            <tr>
+                <th id="h1">Name</th>
+                <td> <input type="text" value="{{user.username}}" name="username" required/></td>
+            </tr>
+            
+           
+            
+            <tr>
+                <th id="h1">password</th>
+                <td> <input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td> <input type="submit" id="btn" value="Change"/></td>
+            </tr>
+        </table>
+    </form>
+{% endblock content1 %}
+{% block footer %}<h1 id="hh">Developed By TULSI Shah || Home Page</h1>
+{% endblock footer %}
+
+<script src="static/js/jquery.js"></script>
+<script>
+$('document').ready(function(){
+    $("#btn").click(function(){
+        alert("Successfuly saved contact");
+    });
+});
+
+</script>

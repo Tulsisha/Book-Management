@@ -1,0 +1,99 @@
+#div{
+    background-image: url('https://wallpapercave.com/wp/wp3903755.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#div2{
+    
+    width: 30%;
+}
+#img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#h{
+   color: black;
+}
+#h2{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#place{
+    width: 100%;
+}
+#h1{
+    color: black;
+    font-size: 20px;
+    float: left;
+}
+#h1 a{
+    text-decoration: none;
+}
+#h11{
+    color: black;
+    font-size: 25px;
+    float: left;
+    margin-top: -5px;
+}
+#h11 a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#h12{
+    color: black;
+    font-size: 28px;
+    float:right;
+}
+button {
+    background-color: antiquewhite;
+}
+.cancelbtn{
+    background-color: rgba(22, 192, 184, 0.33);
+}
+#hh{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -20px;
+ 
+}
+#hh a{
+    text-decoration: none;
+    color: blue;
+}
+
+#tt{
+    color: black;
+    font-size: 25px;
+}
+#tt a{
+    text-decoration: none;
+    color: black;
+}
+
+#body2{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Book-desktop-wallpaper-images-hd-wallpapers.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#ht{
+    margin-top: -35px;
+    float: left;
+}
+#ht a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#login{
+    color: black;
+}

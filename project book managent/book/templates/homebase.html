@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>home</title>
+        <link rel="stylesheet" href="static/css/home.css">
+    </head>
+    <body>
+        <div>
+            <div id="header"><h1>{{user.username}}</h1></div>
+            <div id="content">
+                    <ul id="menubar">
+                    
+                        <li><a href="all">All Record</a></li>
+                        <li><a href="permanent">Permanent</a></li>
+                        <li><a href="delete">Delete Record</a></li>
+                        <li><a href="update">Update Record</a></li>
+                        <li><a href="search">Search Record</a></li>
+                        
+                        <li><a href="change">Change Password</a></li>
+                        <li><a href="userlogout">Logout</a></li>
+                    </ul>
+                </div>
+                <div id="content1">
+                    {% block content1 %}{% endblock content1 %}
+                </div>
+            </div>
+            <div id="footer">{% block footer %}{% endblock footer %}</div>
+        </div>
+    </div>
+    </body>
+</html>
